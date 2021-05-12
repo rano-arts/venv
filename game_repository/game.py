@@ -33,7 +33,7 @@ pygame.display.set_caption('spaceball')
 
 #carregando imagem do personagem
 cenario =pygame.image.load('images/space.png')
-player = pygame.image.load('images/botao2.png')
+player = pygame.image.load('images/player.png')
 player.convert()
 rect = player.get_rect()
 
